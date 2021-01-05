@@ -1,0 +1,2 @@
+run 메서드를 보면 CommandLineRunner는 문자열을 매개변수로 받고,
+ApplicationRUnner는 ApplicationArguments을 배열을 매개변수로 받는다.

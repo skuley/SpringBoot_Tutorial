@@ -1,0 +1,16 @@
+code:
+  secret: ${random.value}
+  bignumber: ${random.long}
+  uuid: ${random.uuid}
+
+
+server:
+  port:1234
+
+spring:
+  config:
+    activate:
+      on-profile: tutorial
+
+  datasource:
+    url: jbdc:log4jdbc:mysql://localhost
